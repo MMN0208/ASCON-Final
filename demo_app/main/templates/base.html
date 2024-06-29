@@ -1,0 +1,18 @@
+<!doctype html>
+<title>{% block title %}{% endblock %} - ASCON's Application Demo</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<img src="{{ url_for('static', filename='img/background.jpg') }}" id="background" alt="">
+<section class="content">
+  <nav>
+    <div>
+      <h2><a>Capstone Project</a></h1>
+      <h3><a href="{{ url_for('img_enc.img_enc') }}">Image Encryption</a></h3>
+      <h3><a href="{{ url_for('img_dec.img_dec') }}">Image Decryption</a></h3>
+      <h3><a href="{{ url_for('hash.hash') }}">Hash Function</a></h3>
+    </div>
+    <div>
+      <h3><a href="{{ url_for('img_dec.img_dec') }}">FAQ</a></h3>
+    </div>
+  </nav>
+    {% block content %}{% endblock %}
+</section>

@@ -1,0 +1,15 @@
+hdl/encryption/ascon_encryption.v
+hdl/encryption/ascon_encryption_ti.v
+hdl/encryption/ascon_enc.v
+hdl/encryption/fc_enc.v
+hdl/permutation/ascon_permutation.v
+hdl/permutation/ascon_permutation_ti.v
+hdl/permutation/linear_layer.v
+hdl/permutation/linear_layer_ti.v
+hdl/permutation/roundconstant.v
+hdl/permutation/roundconstant_ti.v
+hdl/permutation/substitution_layer.v
+hdl/permutation/substitution_layer_ti.v
+hdl/roundcounter.v
+testbench/aead_parameters.v
+testbench/tb_encryption.v

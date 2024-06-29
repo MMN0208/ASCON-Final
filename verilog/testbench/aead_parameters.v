@@ -1,0 +1,13 @@
+`define k 128
+`define r 128
+`define a 12
+`define b 8
+`define l 40
+`define y 40
+`define TI 0
+`define FP 0
+`define KEY 'h8f3144dc35483c22ebee6a0e343a8e42
+`define NONCE 'h5414ab4688e6354d806787ce55345a2e
+`define AD 'h4153434f4e
+`define PT 'h6173636f6e
+`define CT 'h6173636f6e

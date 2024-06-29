@@ -1,0 +1,1366 @@
+VCD info: dumpfile test.vcd opened for output.
+Start!
+State: x counter:  x block_ctr: x 
+ S: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ start: 0 ready: x
+State: x counter:  x block_ctr: x 
+ S: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+ start: 0 ready: x
+State: 0 counter:  0 block_ctr: 0 
+ S: 00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000000000000000000000000000000000000000000 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000000000100000000000000000000000000000001 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000000000300000000000000000000000000000003 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000000000600000000000000000000000000000007 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000000000d0000000000000000000000000000000e 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000000001b0000000000000000000000000000001d 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000000000360000000000000000000000000000003a 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000000006d00000000000000000000000000000075 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000000000db000000000000000000000000000000eb 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000000001b7000000000000000000000000000001d7 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000000036e000000000000000000000000000003af 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000000006dd0000000000000000000000000000075e 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000000000000dba00000000000000000000000000000ebc 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000000000001b7500000000000000000000000000001d78 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000000036ea00000000000000000000000000003af0 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000000000006dd5000000000000000000000000000075e0 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000000dbab0000000000000000000000000000ebc0 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000001b7570000000000000000000000000001d781 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000000000036eaf0000000000000000000000000003af03 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000006dd5f00000000000000000000000000075e07 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000000dbabf000000000000000000000000000ebc0f 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000001b757f000000000000000000000000001d781f 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000036eafe000000000000000000000000003af03f 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000006dd5fc0000000000000000000000000075e07e 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000000000dbabf800000000000000000000000000ebc0fd 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000000001b757f100000000000000000000000001d781fb 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000036eafe300000000000000000000000003af03f7 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000000006dd5fc6000000000000000000000000075e07ef 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000000dbabf8d0000000000000000000000000ebc0fdf 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000001b757f1b0000000000000000000000001d781fbf 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000000036eafe360000000000000000000000003af03f7e 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000006dd5fc6c00000000000000000000000075e07efd 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000000dbabf8d9000000000000000000000000ebc0fdfb 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000001b757f1b3000000000000000000000001d781fbf6 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000036eafe367000000000000000000000003af03f7ec 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000006dd5fc6cf0000000000000000000000075e07efd8 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000000dbabf8d9f00000000000000000000000ebc0fdfb0 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000001b757f1b3e00000000000000000000001d781fbf60 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000036eafe367c00000000000000000000003af03f7ec0 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000006dd5fc6cf8000000000000000000000075e07efd80 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000000dbabf8d9f10000000000000000000000ebc0fdfb00 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000001b757f1b3e20000000000000000000001d781fbf601 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000036eafe367c50000000000000000000003af03f7ec02 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000006dd5fc6cf8b00000000000000000000075e07efd805 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000000dbabf8d9f16000000000000000000000ebc0fdfb00b 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000001b757f1b3e2d000000000000000000001d781fbf6016 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000036eafe367c5a000000000000000000003af03f7ec02c 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000006dd5fc6cf8b50000000000000000000075e07efd8059 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000000dbabf8d9f16b00000000000000000000ebc0fdfb00b3 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000001b757f1b3e2d600000000000000000001d781fbf60166 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000036eafe367c5ad00000000000000000003af03f7ec02cd 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000006dd5fc6cf8b5a000000000000000000075e07efd8059b 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000000dbabf8d9f16b40000000000000000000ebc0fdfb00b36 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000001b757f1b3e2d690000000000000000001d781fbf60166d 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000036eafe367c5ad30000000000000000003af03f7ec02cda 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000006dd5fc6cf8b5a700000000000000000075e07efd8059b5 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000000dbabf8d9f16b4e000000000000000000ebc0fdfb00b36a 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000001b757f1b3e2d69c000000000000000001d781fbf60166d5 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000036eafe367c5ad39000000000000000003af03f7ec02cdab 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000006dd5fc6cf8b5a730000000000000000075e07efd8059b57 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000000dbabf8d9f16b4e700000000000000000ebc0fdfb00b36ae 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000001b757f1b3e2d69ce00000000000000001d781fbf60166d5d 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000036eafe367c5ad39c00000000000000003af03f7ec02cdabb 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000006dd5fc6cf8b5a739000000000000000075e07efd8059b576 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000000dbabf8d9f16b4e720000000000000000ebc0fdfb00b36aed 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000001b757f1b3e2d69ce50000000000000001d781fbf60166d5db 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000036eafe367c5ad39ca0000000000000003af03f7ec02cdabb6 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000006dd5fc6cf8b5a739500000000000000075e07efd8059b576c 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000000dbabf8d9f16b4e72b000000000000000ebc0fdfb00b36aed9 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000001b757f1b3e2d69ce57000000000000001d781fbf60166d5db3 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000036eafe367c5ad39caf000000000000003af03f7ec02cdabb66 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000006dd5fc6cf8b5a7395e0000000000000075e07efd8059b576cd 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000000dbabf8d9f16b4e72bd00000000000000ebc0fdfb00b36aed9a 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000001b757f1b3e2d69ce57b00000000000001d781fbf60166d5db34 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000036eafe367c5ad39caf600000000000003af03f7ec02cdabb669 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000006dd5fc6cf8b5a7395ec000000000000075e07efd8059b576cd3 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000000dbabf8d9f16b4e72bd80000000000000ebc0fdfb00b36aed9a6 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000001b757f1b3e2d69ce57b10000000000001d781fbf60166d5db34d 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000036eafe367c5ad39caf620000000000003af03f7ec02cdabb669a 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000006dd5fc6cf8b5a7395ec400000000000075e07efd8059b576cd35 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000000dbabf8d9f16b4e72bd88000000000000ebc0fdfb00b36aed9a6b 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000001b757f1b3e2d69ce57b10000000000001d781fbf60166d5db34d7 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000036eafe367c5ad39caf620000000000003af03f7ec02cdabb669ae 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000006dd5fc6cf8b5a7395ec410000000000075e07efd8059b576cd35d 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000000dbabf8d9f16b4e72bd88300000000000ebc0fdfb00b36aed9a6bb 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000001b757f1b3e2d69ce57b10700000000001d781fbf60166d5db34d77 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000036eafe367c5ad39caf620f00000000003af03f7ec02cdabb669aee 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000006dd5fc6cf8b5a7395ec41e000000000075e07efd8059b576cd35dc 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000000dbabf8d9f16b4e72bd883d0000000000ebc0fdfb00b36aed9a6bb9 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000001b757f1b3e2d69ce57b107b0000000001d781fbf60166d5db34d772 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000036eafe367c5ad39caf620f70000000003af03f7ec02cdabb669aee5 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000006dd5fc6cf8b5a7395ec41ee00000000075e07efd8059b576cd35dca 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000000dbabf8d9f16b4e72bd883dc000000000ebc0fdfb00b36aed9a6bb94 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000001b757f1b3e2d69ce57b107b9000000001d781fbf60166d5db34d7729 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000036eafe367c5ad39caf620f73000000003af03f7ec02cdabb669aee53 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000006dd5fc6cf8b5a7395ec41ee60000000075e07efd8059b576cd35dca7 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000000dbabf8d9f16b4e72bd883dcc00000000ebc0fdfb00b36aed9a6bb94f 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000001b757f1b3e2d69ce57b107b9900000001d781fbf60166d5db34d7729f 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000036eafe367c5ad39caf620f73200000003af03f7ec02cdabb669aee53f 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000006dd5fc6cf8b5a7395ec41ee64000000075e07efd8059b576cd35dca7f 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000000dbabf8d9f16b4e72bd883dcc90000000ebc0fdfb00b36aed9a6bb94fe 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000001b757f1b3e2d69ce57b107b9930000001d781fbf60166d5db34d7729fc 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000036eafe367c5ad39caf620f73270000003af03f7ec02cdabb669aee53f9 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000006dd5fc6cf8b5a7395ec41ee64e00000075e07efd8059b576cd35dca7f2 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000000dbabf8d9f16b4e72bd883dcc9c000000ebc0fdfb00b36aed9a6bb94fe4 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000001b757f1b3e2d69ce57b107b9938000001d781fbf60166d5db34d7729fc8 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000036eafe367c5ad39caf620f73271000003af03f7ec02cdabb669aee53f90 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000006dd5fc6cf8b5a7395ec41ee64e30000075e07efd8059b576cd35dca7f21 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000000dbabf8d9f16b4e72bd883dcc9c600000ebc0fdfb00b36aed9a6bb94fe43 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000001b757f1b3e2d69ce57b107b9938d00001d781fbf60166d5db34d7729fc87 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000036eafe367c5ad39caf620f73271a00003af03f7ec02cdabb669aee53f90f 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000006dd5fc6cf8b5a7395ec41ee64e34000075e07efd8059b576cd35dca7f21e 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000000dbabf8d9f16b4e72bd883dcc9c690000ebc0fdfb00b36aed9a6bb94fe43c 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000001b757f1b3e2d69ce57b107b9938d30001d781fbf60166d5db34d7729fc878 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000036eafe367c5ad39caf620f73271a60003af03f7ec02cdabb669aee53f90f0 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000006dd5fc6cf8b5a7395ec41ee64e34c00075e07efd8059b576cd35dca7f21e0 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000000dbabf8d9f16b4e72bd883dcc9c698000ebc0fdfb00b36aed9a6bb94fe43c1 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000001b757f1b3e2d69ce57b107b9938d31001d781fbf60166d5db34d7729fc8782 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000036eafe367c5ad39caf620f73271a63003af03f7ec02cdabb669aee53f90f04 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000006dd5fc6cf8b5a7395ec41ee64e34c60075e07efd8059b576cd35dca7f21e08 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000000dbabf8d9f16b4e72bd883dcc9c698d00ebc0fdfb00b36aed9a6bb94fe43c10 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000001b757f1b3e2d69ce57b107b9938d31a01d781fbf60166d5db34d7729fc87821 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000036eafe367c5ad39caf620f73271a63403af03f7ec02cdabb669aee53f90f043 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000006dd5fc6cf8b5a7395ec41ee64e34c69075e07efd8059b576cd35dca7f21e086 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000000dbabf8d9f16b4e72bd883dcc9c698d30ebc0fdfb00b36aed9a6bb94fe43c10d 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000001b757f1b3e2d69ce57b107b9938d31a71d781fbf60166d5db34d7729fc87821a 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c080000000036eafe367c5ad39caf620f73271a634f3af03f7ec02cdabb669aee53f90f0435 
+ start: 0 ready: 0
+Key:	dbabf8d9f16b4e72bd883dcc9c698d3e
+Nonce:	ebc0fdfb00b36aed9a6bb94fe43c10d6
+AD:	4153434f4e
+PT:	ascon
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c08000000006dd5fc6cf8b5a7395ec41ee64e34c69f75e07efd8059b576cd35dca7f21e086b 
+ start: 0 ready: 0
+State: 0 counter:  0 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 0 ready: 0
+State: 1 counter:  0 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter:  1 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter:  2 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter:  3 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter:  4 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter:  5 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter:  6 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter:  7 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter:  8 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter:  9 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter: 10 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter: 11 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter: 12 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 1 ready: 0
+State: 1 counter: 13 block_ctr: 0 
+ S: 80800c0800000000dbabf8d9f16b4e72bd883dcc9c698d3eebc0fdfb00b36aed9a6bb94fe43c10d6 
+ start: 0 ready: 1
+State: 2 counter:  0 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 1 ready: 0
+State: 2 counter:  1 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 1 ready: 0
+State: 2 counter:  2 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 1 ready: 0
+State: 2 counter:  3 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 1 ready: 0
+State: 2 counter:  4 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 1 ready: 0
+State: 2 counter:  5 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 1 ready: 0
+State: 2 counter:  6 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 1 ready: 0
+State: 2 counter:  7 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 1 ready: 0
+State: 2 counter:  8 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 1 ready: 0
+State: 2 counter:  9 block_ctr: 0 
+ S: 5f69e740865ee7d0b3fafed405100da2e9424a164785eb8d7e2b0a2028ac5f128ce93d1a8cea8e43 
+ start: 0 ready: 1
+State: 3 counter:  0 block_ctr: 0 
+ S: d5f2d7ad45ad23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 0 ready: 0
+State: 4 counter:  0 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter:  1 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter:  2 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter:  3 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter:  4 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter:  5 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter:  6 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter:  7 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter:  8 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter:  9 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter: 10 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter: 11 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter: 12 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 1 ready: 0
+State: 4 counter: 13 block_ctr: 0 
+ S: b481b4c22b2d23113db2c0abc0a5002d10660458c8b954202e183d6df5b2222f34b5ec0f6b6f9b5d 
+ start: 0 ready: 1
+Encryption Done! It took         41 clock cycles
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+CT:	b481b4c22b
+Tag:	94b6bd63d0f3cde23d7b263ef5e9bbdd
+
+State: 5 counter:  0 block_ctr: 0 
+ S: 919063ccf134f22b92e035e81d4a46c7e4ba44791cb914404f1d45ba2198839080f31bf2698036e3 
+ start: 0 ready: 0
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	bc726e883bf8793c3d843782d0bf56b3
+Nonce:	abcd02824f0f1147476d78f99e895790
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+CT:	44c63b5767
+Tag:	dcd7c1d2d15fdfecc8cc8546d808bcdb
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	20d3e54794aa9539dd57384f80e48f3f
+Nonce:	f72048d9ac94b3677d3fb1b56e1b4f05
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+CT:	eb9d426427
+Tag:	0db3bfb1b0b53aee38fb9916045e32de
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	73e6cc983162c48912254a952b56ad5b
+Nonce:	4b962d5bb66ddab469d3a74e9d3b77ef
+AD:	4182050a15
+PT:	a
+Encryption Done! It took         41 clock cycles
+CT:	xxxxX00003
+Tag:	xxxxxxxxxxxxxxxxxxxxxxxxxxXd713f
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	173b3b7452e14e3e17668c37dbf4a1c0
+Nonce:	ab0395c33fd2cd7a48f292736839ab3d
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+CT:	f7986076ff
+Tag:	f54a0cb31679195a3ecb486accee7064
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took        -15 clock cycles
+Key:	80c2f5f5bb2200ef979c3848e9eeec2d
+Nonce:	5ab6271f7f667ad0f0bbae70af72b916
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+Write Done! It took        -15 clock cycles
+CT:	5c8a5b3179
+Tag:	efed9367ee3b6e5d902d00ee16ecf5c1
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         15 clock cycles
+Key:	af50c4946115fb0ab2ecc36499a3c33a
+Nonce:	56eeb2b95e2168c342b874f10db2206a
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+Write Done! It took         15 clock cycles
+CT:	9995f77ed2
+Tag:	5b2372755123f07d05e8485eea765718
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         15 clock cycles
+Key:	7aa7fad350912d5e982aead2d34a2678
+Nonce:	49ed7ee2ebde4cc95437502d5b4314f2
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+Read Done! It took         15 clock cycles
+CT:	9703e3cff5
+Tag:	c21e0e5561daf1c87fccc9b7cabcc2da
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	6966716acf6a6f187c5bfc50b2c65dc2
+Nonce:	e5818e104c1fd98179f866d7177fe4d5
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+CT:	454bbe134b
+Tag:	026b0d4b80b73ced8312719fb94a74bc
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took        127 clock cycles
+Key:	3ced1fdd65ee3b24d8aa58045ab0e374
+Nonce:	f352f774013efac509241b51d11a4c82
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+Read Done! It took        127 clock cycles
+CT:	cb91119421
+Tag:	77268409a5ce15db5cf1af9b4bc22347
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         15 clock cycles
+Key:	7b3b7344eb08216e30b9b844005a2adf
+Nonce:	f8bf7951054ef00b1d556d9865a3d1d9
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+Read Done! It took         15 clock cycles
+CT:	a1189d13f0
+Tag:	1156aec730514de950e84ef4986fb3eb
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took        127 clock cycles
+Key:	186d945bcf77f17d843dc5991594ce27
+Nonce:	ebca154e1e2c3a1e1545efab857ccb8e
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+Read Done! It took        127 clock cycles
+CT:	d4e73d5691
+Tag:	1fa9588b33e7cd3e284613bb5720dce7
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         41 clock cycles
+Key:	b86f4abdb9043202d05626c34258d385
+Nonce:	6296616e8a800ddaaf7a2cb1ea4aed33
+AD:	4153434f4e
+PT:	asdlajksdj1238098d91823098123098sjkdlasdjk
+Encryption Done! It took         61 clock cycles
+Read Done! It took         41 clock cycles
+CT:	5fbc773253854b16978cb698642d0b52561fe6d9a6b8f91dd6d64dc6a1384ff200ff0a8252aa3b5b5b68
+Tag:	adefd980f553da0037e069bc309415aa
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took        335 clock cycles
+Key:	1e91fae95471ee481cd3d5dbba7fafa8
+Nonce:	97af4b288da0ea9a4b19bbebba7fc12c
+AD:	4153434f4e
+PT:	asdlajksdj1238098d91823098123098sjkdlasdjk
+Encryption Done! It took         61 clock cycles
+Read Done! It took        335 clock cycles
+CT:	16aac73f279b3d9e33db9009702e333f3e9e6b2e75fd1d8745aa989a3ebc855da586a7c3092374cf923f
+Tag:	bbc9d3cea73da364acc6dc1032d6d624
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took        567 clock cycles
+Key:	7fae07e915ff2151712ec04af497d1e5
+Nonce:	f554b8514c98ee5ba15f4f27760cb936
+AD:	4153434f4e
+PT:	asdlajksdj1238098d91823098123098sjkdlasdjkjasldjasdoiueoiuqweoiujlkasdl
+Encryption Done! It took         81 clock cycles
+Read Done! It took        567 clock cycles
+CT:	58680b8975ee4b8845f82938a9d83c02444f3c291a0dd11ff55d48430e49dd6b328ba6eeed10cb4dc50076b17df5b314b99ea8cd320b48a655fdeb1bf6657d9975db03b423ab51
+Tag:	8266f0e1610c8dc6e25fa5f0ab455cbe
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         70 clock cycles
+Key:	a4fd0f36bba8dcdeaf4169821609f446
+Nonce:	7516eecae2d825894de8de6b5403a23c
+AD:	4153434f4e
+PT:	asdlajksdj1238098d91823098123098sjkdlasdjkjasldjasdoiueoiuqweoiujlkasdl
+Encryption Done! It took         81 clock cycles
+Read Done! It took         70 clock cycles
+CT:	ee545b83be9cca313246a2ecbe29d788f0602521f356fbf43475ad69b4f82358736a5d34852a6dd48ad59c5ed356bf9f950d01de5bfe1692dd7d131d6bf68c885d1942ddc4bd99
+Tag:	dfa23d863f1445d39165eb091cbe322c
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         70 clock cycles
+Key:	02a35c1ff420c6cb97560f6b9c02b491
+Nonce:	c11d9701d7784ac36fd665cb704de08a
+AD:	4153434f4e
+PT:	asdlajksdj1238098d91823098123098sjkdlasdjkjasldjasdoiueoiuqweoiujlkasdl
+Encryption Done! It took         81 clock cycles
+Read Done! It took         70 clock cycles
+CT:	f43455594d5cc82342725e127fe8fe1c8c0eefa707e856435e14b4004410a00a3145718171e71a7b304b0037f25658840faea0e3cbe740107190533a52153e5c36ff89446ded6b
+Tag:	ac2f576cd9e39176362e76a50e777855
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took        567 clock cycles
+Key:	309319f8bd6244eca6bcdfa2d65a0ddb
+Nonce:	a5f449bf488ef1b733ccd5ce5f6656b6
+AD:	4153434f4e
+PT:	asdlajksdj1238098d91823098123098sjkdlasdjkjasldjasdoiueoiuqweoiujlkasdl
+Encryption Done! It took         81 clock cycles
+Read Done! It took        567 clock cycles
+CT:	a4c3659cedad364677ead2e8fc4e56d093f6c280a05fe3b80eaadbcefbdce74805ee5935d8a47984865ad8262b92b187b479c4c51a18b351d32de3b572d8becfa451713c80847f
+Tag:	a0b28d586ac7685c5f2801b0bbc47c1c
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         70 clock cycles
+Key:	73cdbd2bc8a1fef180b64ea26aef6335
+Nonce:	269689242909ee6e294daff95398b1c0
+AD:	4153434f4e
+PT:	asdlajksdj1238098d91823098123098sjkdlasdjkjasldjasdoiueoiuqweoiujlkasdl
+Encryption Done! It took         81 clock cycles
+Read Done! It took         70 clock cycles
+CT:	aedf5429d7af5a9323931fc058e52b69342c5880e402dee8b171a08c28667d42ba4b3490073497f4ea6fffa2708070f30e951212d71703cee9f63e84a839c389bfbdbf3fd310d9
+Tag:	8cad225cabf4e88bdbdab9c14fd18caf
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	6941bfa231f5aeb8d28cf2e5612c65ca
+Nonce:	396493757f2e1fb20bb8184e50bb7fab
+AD:	4153434f4e
+CT:	3030373334393766346561366666666132373038303730663330653935313231326437313730336365653966363365383461383339633338396266626462663366643331306439
+Decryption Done! It took         81 clock cycles
+PT:	be163380ae82e4a3b89bae2858e03b0aa7f1a779f44fceff52688469e89527346e352e05a5c070e614a13a8b98c025468cfad3e06ad41dee7d3ca2f316093bdb97b1dde4b0c53c
+Tag:	d0b847fc46ff3c480570884e7c3f3222
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         70 clock cycles
+Key:	a972571284f5a553444bfc0638432fe1
+Nonce:	940ae469bbec88a5c6613d57e66c02aa
+AD:	4153434f4e
+PT:	asdlajksdj1238098d91823098123098sjkdlasdjkjasldjasdoiueoiuqweoiujlkasdl
+Encryption Done! It took         81 clock cycles
+Read Done! It took         70 clock cycles
+CT:	21f3bdff95090249a04ff8af14d7fb4ce3442fa8d8cd933ed77e17703bb727f1bc049668effc83cb9bdf1086a01737e58daabca29df463b4cf96694a76b24f410f84b980fc63e6
+Tag:	26b7f3b28dd567e505939febcd0f109d
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	cb2744b1a506819b4947e3ce5c914e98
+Nonce:	2f80c686c39291472223833f5ce75008
+AD:	4153434f4e
+CT:	3030373334393766346561366666666132373038303730663330653935313231326437313730336365653966363365383461383339633338396266626462663366643331306439
+Decryption Done! It took         81 clock cycles
+PT:	2ecafcea1d6a4a667ff22626236deb5034e2e92d060fd2169f77a0a9cf205284182180eeffbb31c57a138bce10b089f4be84e819904de4e4565def69da528faf7eb3ba97143e49
+Tag:	64f6baf8e500419449d4d2f218c350a1
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         70 clock cycles
+Key:	2b3c5f396fd11dca81674cb43c44d1d6
+Nonce:	54611b93dcdcbcd1efa26e7a94743eb0
+AD:	4153434f4e
+PT:	asdlajksdj1238098d91823098123098sjkdlasdjkjasldjasdoiueoiuqweoiujlkasdl
+Encryption Done! It took         81 clock cycles
+Read Done! It took         70 clock cycles
+CT:	5aa2338c0b0a6316394210d990e1768565483bde0a8ab3bce92d157801646311062764dd988872aca3c37e9246a8bec910e52cd4eb11c53d5b6303f72c391423676e558390c411
+Tag:	39fb26b2273ff78bdc695ceaed1d1172
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	a6e084e34a66002c97c4549ffa52d886
+Nonce:	a9bdc81e572f8eec5ab2ea333af4db7e
+AD:	4153434f4e
+CT:	3030373334393766346561366666666132373038303730663330653935313231326437313730336365653966363365383461383339633338396266626462663366643331306439
+Decryption Done! It took         81 clock cycles
+PT:	3173c4fb5729ae3625bc7d513daa7ecc72c5e2fb5ee0fe2ab50465abe9402729305974c6d47fd2547fd2bb470b763f755c40a9a38848a2c68c2d38101cc50317d68a3ca77fc65a
+Tag:	6e1daaf91f10236a49fd82d97eb3d0f0
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         15 clock cycles
+Key:	04010307060502040000010205030605
+Nonce:	01030604010204000103070605030707
+AD:	0102050205
+CT:	0102050307
+Decryption Done! It took         41 clock cycles
+Read Done! It took        127 clock cycles
+PT:	0000000009
+Tag:	00000000000000000000000000005bc0
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         15 clock cycles
+Key:	f8f1e2c58a152a55aa54a952a4489122
+Nonce:	3367cf9e3d7af4e8d0a0408000000001
+AD:	4182050a15
+CT:	61c2850b17
+Decryption Done! It took         41 clock cycles
+Read Done! It took        127 clock cycles
+PT:	fffffffff7
+Tag:	ffffffffffffffffffffffffffffc802
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         15 clock cycles
+Key:	fefcf9f2e5cb962d5bb76fdfbf7ffefd
+Nonce:	9d3a75ebd7af5ebc78f1e2c488112244
+AD:	4182050a15
+CT:	61c2850b17
+Decryption Done! It took         41 clock cycles
+Read Done! It took        127 clock cycles
+PT:	000000000e
+Tag:	ffffffffffffffffffffffffffff8d9d
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         15 clock cycles
+Key:	61c3870f1f3e7dfbf7efdebd7af4e8d0
+Nonce:	972e5cb972e4c992254b972e5cb973e6
+AD:	4182050a15
+CT:	61c2850b17
+Decryption Done! It took         41 clock cycles
+Read Done! It took        127 clock cycles
+PT:	fffffffff7
+Tag:	ffffffffffffffffffffffffffffb28d
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         15 clock cycles
+Key:	2e7785c48046850fe02f8874885d5108
+Nonce:	e741521d4496442e0b00dd48b230122b
+AD:	4153434f4e
+CT:	6173636f6e
+Decryption Done! It took         41 clock cycles
+Read Done! It took         15 clock cycles
+PT:	595b7903fc
+Tag:	e1005d76454702a05c7943e8da63f016
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took        127 clock cycles
+Key:	855959cbde9c680f597a59b69e4d527b
+Nonce:	c211332cf875f0b785c2d30ca8c158d7
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+Read Done! It took        127 clock cycles
+CT:	285477a684
+Tag:	abb9049ad9aa42e1e54e12adeb3463e9
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Write Done! It took         15 clock cycles
+Key:	9e9e2abff1da3e276df09b890a42eb15
+Nonce:	5bffb0163565681f5bedf51cf6435767
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+Read Done! It took         15 clock cycles
+CT:	856d8209a3
+Tag:	9b87779cea7d8003f8b9a4a9aa634577
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	468c183163c68d1a3468d1a3478f1e3d
+Nonce:	23468d1a3468d1a2458a142952a54b97
+AD:	4182050a15
+PT:	a
+Encryption Done! It took         40 clock cycles
+CT:	0000000001
+Tag:	00000101000001010100010100000100
+Decryption Done! It took         40 clock cycles
+PT:	 
+Tag:	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Is message authenticated?:	1
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	c78f1e3d7bf7efdebd7af5ead5aa54a9
+Nonce:	1e3d7bf6eddbb66cd8b163c78e1c3871
+AD:	4182050a15
+PT:	a
+Encryption Done! It took         40 clock cycles
+CT:	2495c55f7d
+Tag:	734c1f101ca6746bc09e632d9a96c7d3
+Decryption Done! It took         40 clock cycles
+PT:	a
+Tag:	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Is message authenticated?:	1
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	64064d8fae82b95eef6365f3ad442ca5
+Nonce:	ee3c09ba4fd893c1472757015c07bcc5
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+CT:	79ee6cc47c
+Tag:	70960058e7cbb387046067bb48ff4187
+Decryption Done! It took         40 clock cycles
+PT:	ascon
+Tag:	70960058e7cbb387046067bb48ff4187
+Is message authenticated?:	1
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	6fdfbf7ffefcf9f3e6cc983061c3860d
+Nonce:	60c08102050b172f5fbf7ffefcf8f1e2
+AD:	4182050a15
+PT:	a
+Encryption Done! It took         40 clock cycles
+CT:	28c0458148
+Tag:	bdeac073bd2129592dba0cbfb992ec4d
+Decryption Done! It took         40 clock cycles
+PT:	a
+Tag:	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Is message authenticated?:	1
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	942224d5097fc1a0a129f34b98179de4
+Nonce:	571c3999b5e3740b8ada350d5068ca69
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+CT:	80fd4053c0
+Tag:	0b229a563e0a969f9078201b06df322d
+Decryption Done! It took         40 clock cycles
+PT:	ascon
+Tag:	0b229a563e0a969f9078201b06df322d
+Is message authenticated?:	1
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	cb962c58b163c78f1e3d7bf6eddbb66d
+Nonce:	c58a152a54a953a74f9f3f7efdfaf5eb
+AD:	4182050a15
+PT:	a
+Encryption Done! It took         40 clock cycles
+CT:	26f6bb46a4
+Tag:	c03ee761f4199e9eb068affbdbee3860
+Decryption Done! It took         40 clock cycles
+PT:	a
+Tag:	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Is message authenticated?:	1
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	32d78c44ad9693fd4016edea58ec2a53
+Nonce:	00a3d3626ea2435c75bb85c11ba32f8c
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+CT:	609b17bcea
+Tag:	449dbb9786907e57607d75319bf73112
+Decryption Done! It took         40 clock cycles
+PT:	ascon
+Tag:	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Is message authenticated?:	1
+
+VCD info: dumpfile test.vcd opened for output.
+Start!
+Key:	8f3144dc35483c22ebee6a0e343a8e42
+Nonce:	5414ab4688e6354d806787ce55345a2e
+AD:	4153434f4e
+PT:	ascon
+Encryption Done! It took         41 clock cycles
+CT:	1f63ff98f9
+Tag:	b90fdfec16cd65db479fe917d6baeb71
+Decryption Done! It took         40 clock cycles
+PT:	ascon
+Tag:	b90fdfec16cd65db479fe917d6baeb71
+Is message authenticated?:	1
+

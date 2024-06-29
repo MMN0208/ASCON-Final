@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+example/
+main/Makefile
+main/golden_brick/ascon_cpp/*.exe
+main/golden_brick/ascon_cpp_inout/
+main/fpga_overlay/ascon_ol_inout/    

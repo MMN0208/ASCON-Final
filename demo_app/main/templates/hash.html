@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p class="heading">Hash Function Process</p>
+{% if run_version %}
+<p class="subheading_white">Variant: {{run_version}}</p>
+{% endif %}
+<div id="hash_box">
+  <div>
+    <p class="output_heading">Input Data:</p>
+    <form method="post" enctype="multipart/form-data">
+      <textarea id="hash_input" name="hash_input" rows="10" cols="50"></textarea>
+      <div id="version_select">
+        <input class="cap_button" name="submit_btn" type="submit" value="Process with ASCON-HASH">
+        <input class="cap_button" name="submit_btn" type="submit" value="Process with ASCON-HASHA">
+      </div>
+    </form>
+  {% if sw_hash and hw_hash %}
+    <ul class=""output_content>
+      <li>Original Input Size: {hash_input_size} (Bytes)</li>
+    </ul>
+  </div>
+
+  <div>
+    <p class="output_heading">SW Hash Output:</p>
+    <textarea id="sw_hash" onclick="copyToClipboardSD()">{{sw_hash}}</textarea>
+    <ul class="output_content">
+      <li>Total Run Time: {{sw_hash_exe_time}} (s)</li>
+      <li>Throughput: {{sw_hash_throughput}} (Bytes/s)</li>
+      <li>Decrypted File Size: {{sw_hash_size}} (Bytes)</li>
+    </ul>
+  </div>
+  <div>
+    <p class="output_heading">HW Hash Output:</p>
+    <textarea id="hw_hash" onclick="copyToClipboardHD()">{{hw_hash}}</textarea>
+    <ul class="output_content">
+      <li>Total Run Time: {{hw_hash_exe_time}} (s)</li>
+      <li>Throughput: {{hw_hash_throughput}} (Bytes/s)</li>
+      <li>Decrypted File Size: {{hw_hash_size}} (Bytes)</li>
+    </ul>
+  </div>
+  {% endif %}
+</div>
+
+<script>
+  function copyToClipboardSD() {
+    const text = document.getElementById("sw_hash").textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Copied to clipboard!");
+    }, (err) => {
+      console.error("Failed to copy:", err);
+      alert("Failed to copy. Please try again.");
+    });
+  }
+
+  function copyToClipboardHD() {
+    const text = document.getElementById("hw_hash").textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Copied to clipboard!");
+    }, (err) => {
+      console.error("Failed to copy:", err);
+      alert("Failed to copy. Please try again.");
+    });
+  }
+</script>
+
+{% endblock %}

@@ -1,0 +1,1262 @@
+
+*** Running vivado
+    with args -log block_design_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source block_design_wrapper.tcl -notrace
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source block_design_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ADMIN/Documents/ASCON-Vitis/ascon128/solution1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.2/data/ip'.
+Command: link_design -top block_design_wrapper -part xczu3eg-sbva484-1-i
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.505 . Memory (MB): peak = 1473.551 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 285 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_zynq_ultra_ps_e_0_2/block_design_zynq_ultra_ps_e_0_2.xdc] for cell 'block_design_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_zynq_ultra_ps_e_0_2/block_design_zynq_ultra_ps_e_0_2.xdc] for cell 'block_design_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_rst_ps8_0_100M_3/block_design_rst_ps8_0_100M_3_board.xdc] for cell 'block_design_i/rst_ps8_0_100M/U0'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_rst_ps8_0_100M_3/block_design_rst_ps8_0_100M_3_board.xdc] for cell 'block_design_i/rst_ps8_0_100M/U0'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_rst_ps8_0_100M_3/block_design_rst_ps8_0_100M_3.xdc] for cell 'block_design_i/rst_ps8_0_100M/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_rst_ps8_0_100M_3/block_design_rst_ps8_0_100M_3.xdc:50]
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_rst_ps8_0_100M_3/block_design_rst_ps8_0_100M_3.xdc] for cell 'block_design_i/rst_ps8_0_100M/U0'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_1/bd_b2e9_psr_aclk_0_board.xdc] for cell 'block_design_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_1/bd_b2e9_psr_aclk_0_board.xdc] for cell 'block_design_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_1/bd_b2e9_psr_aclk_0.xdc] for cell 'block_design_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_1/bd_b2e9_psr_aclk_0.xdc] for cell 'block_design_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc] for cell 'block_design_i/axi_smc/inst/s00_nodes/s00_ar_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:82]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:85]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:91]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:94]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:97]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:107]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:110]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:113]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:116]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:119]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:122]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:125]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:128]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:131]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:134]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:137]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:140]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:143]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:146]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:149]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:152]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:155]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:158]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:161]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:164]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:167]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:171]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:174]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc:178]
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_6/bd_b2e9_sarn_0_clocks.xdc] for cell 'block_design_i/axi_smc/inst/s00_nodes/s00_ar_node/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc] for cell 'block_design_i/axi_smc/inst/s00_nodes/s00_r_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:82]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:85]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:91]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:94]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:97]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:107]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:110]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:113]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:116]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:119]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:122]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:125]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:128]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:131]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:134]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:137]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:149]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:158]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:161]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:164]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:167]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:171]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:174]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc:178]
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/bd_0/ip/ip_7/bd_b2e9_srn_0_clocks.xdc] for cell 'block_design_i/axi_smc/inst/s00_nodes/s00_r_node/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc] for cell 'block_design_i/axi_smc/inst'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:1]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:2]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:3]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:4]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:5]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:6]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:8]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:9]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc:10]
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_6/smartconnect.xdc] for cell 'block_design_i/axi_smc/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_1/bd_c047_psr_aclk_0_board.xdc] for cell 'block_design_i/axi_smc_1/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_1/bd_c047_psr_aclk_0_board.xdc] for cell 'block_design_i/axi_smc_1/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_1/bd_c047_psr_aclk_0.xdc] for cell 'block_design_i/axi_smc_1/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_1/bd_c047_psr_aclk_0.xdc] for cell 'block_design_i/axi_smc_1/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc] for cell 'block_design_i/axi_smc_1/inst/s00_nodes/s00_aw_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:52]
+INFO: [Common 17-14] Message 'Vivado 12-180' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:82]
+INFO: [Common 17-14] Message 'Vivado_Tcl 4-921' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc:82]
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_6/bd_c047_sawn_0_clocks.xdc] for cell 'block_design_i/axi_smc_1/inst/s00_nodes/s00_aw_node/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_7/bd_c047_swn_0_clocks.xdc] for cell 'block_design_i/axi_smc_1/inst/s00_nodes/s00_w_node/inst'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_7/bd_c047_swn_0_clocks.xdc] for cell 'block_design_i/axi_smc_1/inst/s00_nodes/s00_w_node/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_8/bd_c047_sbn_0_clocks.xdc] for cell 'block_design_i/axi_smc_1/inst/s00_nodes/s00_b_node/inst'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/bd_0/ip/ip_8/bd_c047_sbn_0_clocks.xdc] for cell 'block_design_i/axi_smc_1/inst/s00_nodes/s00_b_node/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/smartconnect.xdc] for cell 'block_design_i/axi_smc_1/inst'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/smartconnect.xdc:1]
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_smc_1_0/smartconnect.xdc] for cell 'block_design_i/axi_smc_1/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_dma_0_2/block_design_axi_dma_0_2.xdc] for cell 'block_design_i/ascon/ascon_dma/U0'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_dma_0_2/block_design_axi_dma_0_2.xdc:61]
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_dma_0_2/block_design_axi_dma_0_2.xdc] for cell 'block_design_i/ascon/ascon_dma/U0'
+Parsing XDC File [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc]
+WARNING: [Vivado 12-584] No ports matched 'BT_HCI_CTS'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_HCI_RTS'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RADIO_LED0'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RADIO_LED1'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_C_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_C_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_D0_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_D0_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_D1_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_D1_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_D2_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_D2_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_D3_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_D3_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI1_C_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI1_C_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI1_D0_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI1_D0_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI1_D1_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI1_D1_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_CLK_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_CLK_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_D0_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_D0_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_D1_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_D1_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_D2_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_D2_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_D3_N'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DSI_D3_P'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HSIC_DATA'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HSIC_STR'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI0_MCLK'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CSI1_MCLK'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'FAN_PWM'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_0'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_1'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_2'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_3'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_4'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_5'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_6'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_7'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_8'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_9'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_10'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_11'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_12'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_13'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_14'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'HD_GPIO_15'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 26]]'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 65]]'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 66]]'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS_DDR_CAA0'. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:257]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc:257]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.srcs/constrs_1/imports/FPGA/Ultra96_V2_constraints_190430.xdc]
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_auto_ds_0/block_design_auto_ds_0_clocks.xdc] for cell 'block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_auto_ds_0/block_design_auto_ds_0_clocks.xdc] for cell 'block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_auto_ds_1/block_design_auto_ds_1_clocks.xdc] for cell 'block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_auto_ds_1/block_design_auto_ds_1_clocks.xdc] for cell 'block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_dma_0_2/block_design_axi_dma_0_2_clocks.xdc] for cell 'block_design_i/ascon/ascon_dma/U0'
+Finished Parsing XDC File [c:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.gen/sources_1/bd/block_design/ip/block_design_axi_dma_0_2/block_design_axi_dma_0_2_clocks.xdc] for cell 'block_design_i/ascon/ascon_dma/U0'
+INFO: [Project 1-1714] 32 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 274 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1981.340 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 51 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 45 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+The system cannot find the path specified.
+14 Infos, 158 Warnings, 55 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1981.340 ; gain = 1446.215
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1981.340 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 16d5928d1
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.523 . Memory (MB): peak = 1981.340 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 16d5928d1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2310.844 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 16d5928d1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Phase 1 Initialization | Checksum: 16d5928d1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2310.844 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 16d5928d1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.264 . Memory (MB): peak = 2310.844 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 16d5928d1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.294 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: 16d5928d1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.295 . Memory (MB): peak = 2310.844 ; gain = 0.000
+
+Phase 3 Retarget
+INFO: [Opt 31-1566] Pulled 4 inverters resulting in an inversion of 34 pins
+INFO: [Opt 31-138] Pushed 46 inverter(s) to 2326 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 116164693
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.793 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Retarget | Checksum: 116164693
+INFO: [Opt 31-389] Phase Retarget created 70 cells and removed 450 cells
+INFO: [Opt 31-1021] In phase Retarget, 75 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 42635b09
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.876 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Constant propagation | Checksum: 42635b09
+INFO: [Opt 31-389] Phase Constant propagation created 22 cells and removed 37 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 75 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 2c8de8ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Sweep | Checksum: 2c8de8ce
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 38 cells
+INFO: [Opt 31-1021] In phase Sweep, 219 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+Phase 6 BUFG optimization | Checksum: 2c8de8ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2310.844 ; gain = 0.000
+BUFG optimization | Checksum: 2c8de8ce
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][0]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][10]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][11]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][12]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][13]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][14]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][15]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][16]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][17]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][18]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][19]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][1]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][20]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][21]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][22]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][23]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][24]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][25]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][26]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][27]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][28]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][29]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][2]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][30]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][31]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][32]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][33]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][3]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][4]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][5]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][6]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][7]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][8]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][9]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/transaction_fifo_0/memory_reg[31][0]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][0]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][1]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][2]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][3]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][4]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][5]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][6]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][7]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bresp_fifo_0/memory_reg[3][0]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bresp_fifo_0/memory_reg[3][1]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][0]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][10]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][11]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][12]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][13]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][14]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][15]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][16]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][17]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][18]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][19]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][1]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][20]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][21]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][22]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][23]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][24]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][25]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][26]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][27]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][28]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][29]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][2]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][30]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][31]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][32]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][33]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][3]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][4]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][5]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][6]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][7]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][8]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/rd_data_fifo_0/memory_reg[31][9]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/transaction_fifo_0/memory_reg[31][0]_srl32 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][0]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][1]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][2]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][3]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][4]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][5]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][6]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3][7]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bresp_fifo_0/memory_reg[3][0]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/ps8_0_axi_periph/s01_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bresp_fifo_0/memory_reg[3][1]_srl4 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc/inst/m00_exit_pipeline/m00_exit/inst/exit_inst/gen_r_cmd_fifo.r_cmd_fifo/gen_srls[11].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc/inst/m00_exit_pipeline/m00_exit/inst/exit_inst/gen_r_cmd_fifo.r_cmd_fifo/gen_srls[14].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc/inst/m00_exit_pipeline/m00_exit/inst/exit_inst/gen_r_cmd_fifo.r_cmd_fifo/gen_srls[15].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc/inst/m00_exit_pipeline/m00_exit/inst/exit_inst/gen_r_cmd_fifo.r_cmd_fifo/gen_srls[16].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc/inst/m00_exit_pipeline/m00_exit/inst/exit_inst/gen_r_cmd_fifo.r_cmd_fifo/gen_srls[17].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc/inst/m00_exit_pipeline/m00_exit/inst/exit_inst/gen_r_cmd_fifo.r_cmd_fifo/gen_srls[4].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc_1/inst/m00_exit_pipeline/m00_exit/inst/exit_inst/gen_w_cmd_fifo.w_cmd_fifo/gen_srls[1].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc_1/inst/m00_exit_pipeline/m00_exit/inst/exit_inst/gen_w_cmd_fifo.w_cmd_fifo/gen_srls[2].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc_1/inst/m00_exit_pipeline/m00_exit/inst/exit_inst/gen_w_cmd_fifo.w_cmd_fifo/gen_srls[3].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+WARNING: [Opt 31-1131] Can not pull register out from block_design_i/axi_smc_1/inst/s00_entry_pipeline/s00_si_converter/inst/gen_normal.splitter_inst/gen_no_wsplitter.gen_endpoint_woffset.gen_wbypass_offset_fifo.wbypass_offset_fifo/gen_srls[0].srl_nx1/shift_reg_reg[0]_srl16 due to none static srl address bits
+INFO: [Common 17-14] Message 'Opt 31-1131' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 2c8de8ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Shift Register Optimization | Checksum: 2c8de8ce
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 2c8de8ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Post Processing Netlist | Checksum: 2c8de8ce
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 87 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 19cb72f8e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2310.844 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 19cb72f8e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Phase 9 Finalization | Checksum: 19cb72f8e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2310.844 ; gain = 0.000
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              70  |             450  |                                             75  |
+|  Constant propagation         |              22  |              37  |                                             75  |
+|  Sweep                        |               0  |              38  |                                            219  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             87  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 19cb72f8e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2310.844 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2310.844 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 4 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 2 WE to EN ports
+Number of BRAM Ports augmented: 3 newly gated: 2 Total Ports: 8
+Ending PowerOpt Patch Enables Task | Checksum: fd0843d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 2944.512 ; gain = 0.000
+Ending Power Optimization Task | Checksum: fd0843d2
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2944.512 ; gain = 633.668
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: fd0843d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2944.512 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2944.512 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 9951d33f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2944.512 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+44 Infos, 258 Warnings, 55 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 2944.512 ; gain = 963.172
+INFO: [runtcl-4] Executing : report_drc -file block_design_wrapper_drc_opted.rpt -pb block_design_wrapper_drc_opted.pb -rpx block_design_wrapper_drc_opted.rpx
+Command: report_drc -file block_design_wrapper_drc_opted.rpt -pb block_design_wrapper_drc_opted.pb -rpx block_design_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.runs/impl_1/block_design_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2944.512 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.runs/impl_1/block_design_wrapper_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2944.512 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 69bf3693
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2944.512 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2944.512 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 10fd6894b
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 14ed53aa3
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 14ed53aa3
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Phase 1 Placer Initialization | Checksum: 14ed53aa3
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+
+Phase 2.1.1 Partition Driven Placement
+
+Phase 2.1.1.1 PBP: Partition Driven Placement
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 160ceb303
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:20 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 2.1.1.2 PBP: Clock Region Placement
+INFO: [Place 30-3162] Check ILP status : ILP-based clock placer completed successfully.
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 131442eae
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 2.1.1.3 PBP: Compute Congestion
+Phase 2.1.1.3 PBP: Compute Congestion | Checksum: 131442eae
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 2.1.1.4 PBP: UpdateTiming
+Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 16289cfd4
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 2.1.1.5 PBP: Add part constraints
+Phase 2.1.1.5 PBP: Add part constraints | Checksum: 16289cfd4
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Phase 2.1.1 Partition Driven Placement | Checksum: 16289cfd4
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Phase 2.1 Floorplanning | Checksum: 16289cfd4
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 16289cfd4
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 16289cfd4
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 21003ffeb
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:53 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 452 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 166 nets or LUTs. Breaked 0 LUT, combined 166 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-1030] Pass 1. Identified 8 candidate driver sets for equivalent driver rewiring.
+INFO: [Physopt 32-661] Optimized 3 nets.  Re-placed 12 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 3 nets or cells. Created 0 new cell, deleted 0 existing cell and moved 12 existing cells
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 3818.254 ; gain = 0.000
+WARNING: [Physopt 32-894] Found a constraint with the -through option on pin block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst/src_arst or the net immediately connecting to the pin. This constraint will block optimizations for this and all downstream leaf pins.
+INFO: [Physopt 32-76] Pass 1. Identified 1 candidate net for fanout optimization.
+INFO: [Physopt 32-81] Processed net block_design_i/rst_ps8_0_100M/U0/peripheral_aresetn[0]. Replicated 8 times.
+WARNING: [Physopt 32-894] Found a constraint with the -through option on pin block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst/src_arst or the net immediately connecting to the pin. This constraint will block optimizations for this and all downstream leaf pins.
+INFO: [Physopt 32-232] Optimized 1 net. Created 8 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 8 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.138 . Memory (MB): peak = 3818.254 ; gain = 0.000
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1401] No candidate cells found for Shift Register optimization.
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 3818.254 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            166  |                   166  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Equivalent Driver Rewiring                       |            0  |              0  |                     3  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            8  |              0  |                     1  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            8  |            166  |                   170  |           0  |          10  |  00:00:01  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 226dbfccb
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:55 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Phase 2.4 Global Placement Core | Checksum: 2a3dd73eb
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:01:00 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Phase 2 Global Placement | Checksum: 2a3dd73eb
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:01:00 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 216f1f48c
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 23ba532ac
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:05 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 3.3 Small Shape DP
+
+Phase 3.3.1 Small Shape Clustering
+Phase 3.3.1 Small Shape Clustering | Checksum: 2178d82fb
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:01:15 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 3.3.2 Slice Area Swap
+
+Phase 3.3.2.1 Slice Area Swap Initial
+Phase 3.3.2.1 Slice Area Swap Initial | Checksum: 173938df0
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:01:21 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Phase 3.3.2 Slice Area Swap | Checksum: 173938df0
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:01:21 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Phase 3.3 Small Shape DP | Checksum: 10ca48c24
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:01:31 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 3.4 Re-assign LUT pins
+Phase 3.4 Re-assign LUT pins | Checksum: 1bcb357b8
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:01:31 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 3.5 Pipeline Register Optimization
+Phase 3.5 Pipeline Register Optimization | Checksum: 1eca5a7e3
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:01:31 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Phase 3 Detail Placement | Checksum: 1eca5a7e3
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:01:31 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 19792e7ac
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.250 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 16372bbed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.278 . Memory (MB): peak = 3818.254 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 16372bbed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.385 . Memory (MB): peak = 3818.254 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 19792e7ac
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:40 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.503. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 12ffb9fe5
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:41 . Memory (MB): peak = 3818.254 ; gain = 873.742
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:41 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Phase 4.1 Post Commit Optimization | Checksum: 12ffb9fe5
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:41 . Memory (MB): peak = 3818.254 ; gain = 873.742
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3837.840 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 22520d430
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:46 . Memory (MB): peak = 3837.840 ; gain = 893.328
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+| Direction | Region Size       | Region Size       | Region Size       |
+|___________|___________________|___________________|___________________|
+|      North|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+|      South|                1x1|                1x1|                2x2|
+|___________|___________________|___________________|___________________|
+|       East|                1x1|                1x1|                2x2|
+|___________|___________________|___________________|___________________|
+|       West|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 22520d430
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:46 . Memory (MB): peak = 3837.840 ; gain = 893.328
+Phase 4.3 Placer Reporting | Checksum: 22520d430
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:46 . Memory (MB): peak = 3837.840 ; gain = 893.328
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3837.840 ; gain = 0.000
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:46 . Memory (MB): peak = 3837.840 ; gain = 893.328
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 20b7f3a13
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:46 . Memory (MB): peak = 3837.840 ; gain = 893.328
+Ending Placer Task | Checksum: 1fcb9180b
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:46 . Memory (MB): peak = 3837.840 ; gain = 893.328
+92 Infos, 260 Warnings, 55 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:11 ; elapsed = 00:01:48 . Memory (MB): peak = 3837.840 ; gain = 893.328
+INFO: [runtcl-4] Executing : report_io -file block_design_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 3837.840 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file block_design_wrapper_utilization_placed.rpt -pb block_design_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file block_design_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 3837.840 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 3837.840 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.784 . Memory (MB): peak = 3837.840 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3837.840 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.067 . Memory (MB): peak = 3837.840 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 3837.840 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 3837.840 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.915 . Memory (MB): peak = 3837.840 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.runs/impl_1/block_design_wrapper_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3841.664 ; gain = 3.824
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+101 Infos, 260 Warnings, 55 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 3868.426 ; gain = 9.961
+Wrote PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.745 . Memory (MB): peak = 3868.426 ; gain = 9.961
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3868.426 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 3868.426 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 3868.426 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3868.426 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.850 . Memory (MB): peak = 3868.426 ; gain = 9.961
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.runs/impl_1/block_design_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 7a3f4936 ConstDB: 0 ShapeSum: 8d549a8a RouteDB: f525344b
+Nodegraph reading from file.  Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.516 . Memory (MB): peak = 3868.426 ; gain = 0.000
+Post Restoration Checksum: NetGraph: c2c56e4d | NumContArr: 46fb539c | Constraints: 83382ad5 | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 24fa1e75b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 3872.961 ; gain = 4.535
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 24fa1e75b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 3872.961 ; gain = 4.535
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 24fa1e75b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 3872.961 ; gain = 4.535
+
+Phase 2.3 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Global Clock Net Routing | Checksum: 29957d161
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 3919.680 ; gain = 51.254
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 18cb86722
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 3919.680 ; gain = 51.254
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.605  | TNS=0.000  | WHS=-0.057 | THS=-18.317|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 16196
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 12873
+  Number of Partially Routed Nets     = 3323
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 24ff324d3
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 24ff324d3
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 3.2 Initial Net Routing
+Phase 3.2 Initial Net Routing | Checksum: 2b9921c68
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 3924.875 ; gain = 56.449
+Phase 3 Initial Routing | Checksum: 1eb881dc5
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 3208
+ Number of Nodes with overlaps = 291
+ Number of Nodes with overlaps = 41
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+INFO: [Route 35-443] CLB routing congestion detected. Several CLBs have high routing utilization, which can impact timing closure. Congested CLBs and Nets are dumped in: iter_100_CongestedCLBsAndNets.txt
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.315  | TNS=0.000  | WHS=0.009  | THS=0.000  |
+
+Phase 4.1 Global Iteration 0 | Checksum: 28bfa3b0c
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:31 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 4.2 Additional Iteration for Hold
+Phase 4.2 Additional Iteration for Hold | Checksum: 28cc25e0f
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:31 . Memory (MB): peak = 3924.875 ; gain = 56.449
+Phase 4 Rip-up And Reroute | Checksum: 28cc25e0f
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:31 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 23a205d90
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:31 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 23a205d90
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:31 . Memory (MB): peak = 3924.875 ; gain = 56.449
+Phase 5 Delay and Skew Optimization | Checksum: 23a205d90
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:31 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1c24c38a5
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 3924.875 ; gain = 56.449
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.315  | TNS=0.000  | WHS=0.009  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 277a8291c
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 3924.875 ; gain = 56.449
+Phase 6 Post Hold Fix | Checksum: 277a8291c
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.89675 %
+  Global Horizontal Routing Utilization  = 3.35952 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 277a8291c
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 277a8291c
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 277a8291c
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 10 Resolve XTalk
+Phase 10 Resolve XTalk | Checksum: 277a8291c
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.315  | TNS=0.000  | WHS=0.009  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: 277a8291c
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 3924.875 ; gain = 56.449
+INFO: [Route 35-16] Router Completed Successfully
+
+Phase 12 Post-Route Event Processing
+Phase 12 Post-Route Event Processing | Checksum: 131d150fe
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:34 . Memory (MB): peak = 3924.875 ; gain = 56.449
+Ending Routing Task | Checksum: 131d150fe
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:34 . Memory (MB): peak = 3924.875 ; gain = 56.449
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+116 Infos, 260 Warnings, 55 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:36 . Memory (MB): peak = 3924.875 ; gain = 56.449
+INFO: [runtcl-4] Executing : report_drc -file block_design_wrapper_drc_routed.rpt -pb block_design_wrapper_drc_routed.pb -rpx block_design_wrapper_drc_routed.rpx
+Command: report_drc -file block_design_wrapper_drc_routed.rpt -pb block_design_wrapper_drc_routed.pb -rpx block_design_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.runs/impl_1/block_design_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file block_design_wrapper_methodology_drc_routed.rpt -pb block_design_wrapper_methodology_drc_routed.pb -rpx block_design_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file block_design_wrapper_methodology_drc_routed.rpt -pb block_design_wrapper_methodology_drc_routed.pb -rpx block_design_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.runs/impl_1/block_design_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file block_design_wrapper_power_routed.rpt -pb block_design_wrapper_power_summary_routed.pb -rpx block_design_wrapper_power_routed.rpx
+Command: report_power -file block_design_wrapper_power_routed.rpt -pb block_design_wrapper_power_summary_routed.pb -rpx block_design_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+126 Infos, 261 Warnings, 55 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 3924.875 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_route_status -file block_design_wrapper_route_status.rpt -pb block_design_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file block_design_wrapper_timing_summary_routed.rpt -pb block_design_wrapper_timing_summary_routed.pb -rpx block_design_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file block_design_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file block_design_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file block_design_wrapper_bus_skew_routed.rpt -pb block_design_wrapper_bus_skew_routed.pb -rpx block_design_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 3924.875 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.733 . Memory (MB): peak = 3924.875 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3924.875 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.212 . Memory (MB): peak = 3924.875 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 3924.875 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3924.875 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.997 . Memory (MB): peak = 3924.875 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ADMIN/Documents/ASCON-Vitis/ascon_test/ascon_test.runs/impl_1/block_design_wrapper_routed.dcp' has been generated.
+INFO: [Memdata 28-167] Found XPM memory block block_design_i/axi_smc_1/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the block_design_i/axi_smc_1/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block block_design_i/axi_smc_1/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the block_design_i/axi_smc_1/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block block_design_i/axi_smc_1/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the block_design_i/axi_smc_1/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block block_design_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the block_design_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block block_design_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the block_design_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block block_design_i/ascon/ascon_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the block_design_i/ascon/ascon_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <block_design_i/ascon/ascon_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <block_design_i/ascon/ascon_dma>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <block_design_i/ascon/ascon_dma/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <block_design_i/ascon/ascon_dma>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force block_design_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu3eg'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A2)+((~A2)*(~A5)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A3)+((~A3)*(~A2)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A3)+((~A3)*(~A5)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A1)+((~A1)*(~A5)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1 (pin block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1/I1) is not included in the LUT equation: 'O6=(A6+~A6)*((A1)+((~A1)*(~A5)*A4))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1 (pin block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1/I1) is not included in the LUT equation: 'O6=(A6+~A6)*((A5)+((~A5)*(~A1)*A4))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1 (pin block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1/I1) is not included in the LUT equation: 'O6=(A6+~A6)*((A4)+((~A4)*(~A2)*A1))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A5)+((~A5)*(~A1)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A4' of cell block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1 (pin block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1/I1) is not included in the LUT equation: 'O6=(A6+~A6)*((A1)+((~A1)*(~A2)*A5))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O5=(A3)+((~A3)*(~A2)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1 (pin block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1/I1) is not included in the LUT equation: 'O6=(A6+~A6)*((A3)+((~A3)*(~A2)*A4))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1 (pin block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state[0]_i_1/I1) is not included in the LUT equation: 'O6=(A6+~A6)*((A4)+((~A4)*(~A3)*A2))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC REQP-1934] RAMB18E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (block_design_i/ascon/ascon_dma/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC REQP-1934] RAMB18E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (block_design_i/ascon/ascon_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (block_design_i/ascon/ascon_dma/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (block_design_i/ascon/ascon_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC RTSTAT-10] No routable loads: 66 net(s) have no routable loads. The problem bus(es) and/or net(s) are block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], block_design_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], block_design_i/ps8_0_axi_periph/s01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0]... and (the first 15 of 42 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 17 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./block_design_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 3929.445 ; gain = 4.570
+INFO: [Common 17-206] Exiting Vivado at Wed May  1 17:05:59 2024...

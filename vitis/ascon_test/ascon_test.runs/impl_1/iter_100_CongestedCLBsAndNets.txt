@@ -1,0 +1,8 @@
+List of CLB Tiles
+CLEM_X11Y62
+CLEL_R_X11Y62
+
+List of Congested Nets
+block_design_i/ascon/ascon128/inst/in_tag_read_reg_463[28]
+block_design_i/ascon/ascon128/inst/in_tag_read_reg_463[29]
+
